@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background-color: #0f172a; /* رمادي فحمي داكن - Dark Slate */
+    color: #f8fafc;
+    direction: rtl;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    padding: 20px 0;
+    border-bottom: 1px solid #1e293b;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.logo span {
+    color: #10b981; /* أخضر تقني */
+}
+
+.badge {
+    background-color: #064e3b;
+    color: #34d399;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.hero {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #94a3b8;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+}
+
+.cta-box {
+    background-color: #1e293b;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.cta-box h3 {
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+
+.waitlist-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.waitlist-form input {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #475569;
+    background-color: #0f172a;
+    color: #fff;
+    font-family: inherit;
+}
+
+.waitlist-form button {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #10b981;
+    color: #fff;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.waitlist-form button:hover {
+    background-color: #059669;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    color: #64748b;
+    font-size: 14px;
+    border-top: 1px solid #1e293b;
+    margin-top: 50px;
+}
+
